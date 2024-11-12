@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #40514e;
+  justify-content: center;
+}
+
+.top-container {
+  background-image: url(image/brush_grungy_wall_textured_background.jpg);
+  background-size: cover;
+  position: relative;
+  margin-top: -4rem;
+  max-height: 100vh;
+  padding-top: 4rem;
+}
+
+.top-container img {
+  width: 35rem;
+  height: auto;
+  margin-top: -7rem;
+}
+
+.top-container a {
+  color: #11999e;
+}
+
+.top-container h1 {
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+}
+
+.top-container h2 {
+  color: #66bfbf;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  margin-top: -1rem;
+}
+
+.top-container span{
+  font-weight: bold;
+}
+
+.top-container h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+.top-container p {
+  line-height: 2;
+}
+.top-container a:hover {
+  color: #eaf6f6;
+}
+
+.teks h2 {
+  color: #66bfbf;
+}
+
+#intro {
+  font-size: 1.2rem;
+  margin-top: -1rem;
+}
+
+.middle-container {
+  margin-top: 40px;
+}
+
+.list-profile {
+  display: block;
+  padding: 0rem 10rem 0rem 10rem;
+}
+
+.profile {
+  justify-content: center;
+  display: flex;
+}
+
+.profile button {
+  margin: 2rem;
+  border-radius: 10rem;
+  height: 12rem;
+  width: 12rem;
+  transition: 0.2s ease-in-out;
+}
+
+.profile #picboyong {
+  background-image: url(image/akesa.jpg);
+  background-size: cover;
+}
+
+.profile #picgyj {
+  background-image: url(image/pashi.jpg);
+  background-size: cover;
+}
+
+.profile #pichaeenaa {
+  background-image: url(image/drian.jpg);
+  background-size: cover;
+}
+
+.clicked-button {
+  border: 6px solid #11999e;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+.bottom-cloud {
+  left: 450px;
+  position: absolute;
+  bottom: 300px;
+}
+/*projek  */
+
+.second-middle-container {
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+.second-middle-container a button:hover {
+  cursor: pointer;
+}
+
+.card-group {
+  justify-content: center;
+  display: flex;
+  gap: 25px;
+}
+
+.card {
+  width: 345px;
+  height: 225px;
+  border-radius: 16px;
+
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.card .layer {
+  background: linear-gradient(
+    180deg,
+    rgba(27, 27, 27, 0.6671918767507004) 25%,
+    rgba(40, 46, 45, 1) 57%
+  );
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 75%;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.card .info {
+  position: absolute;
+  bottom: -55%;
+  padding: 15px;
+  opacity: 0;
+  transition: 0.7s bottom, 1.75s opacity;
+}
+
+.info {
+  font-size: 9px;
+  margin-top: 3px;
+  color: white;
+}
+
+.info h1 {
+  color: #66bfbf;
+}
+
+.info button {
+  background: #66bfbf;
+  border: none;
+  padding: 8px 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.card:hover > .layer {
+  opacity: 1;
+}
+
+.card:hover > .info {
+  bottom: 0;
+  opacity: 1;
+}
+
+/* end projek*/
+.contact-me {
+  width: 70%;
+  height: 17rem;
+  font-size: 1rem;
+  padding: 3rem;
+  margin: 5rem 0rem 5rem 11.5%;
+  background-color: rgb(21, 20, 20);
+  display: flex;
+  color: white;
+  align-items: center;
+  align-self: center;
+  border-radius: 3rem;
+}
+
+.contact-info {
+  width: 50%;
+  display: block;
+  text-align: left;
+}
+
+.contact-img {
+  width: 50%;
+}
+
+.contact-img img {
+  width: 20rem;
+  height: auto;
+}
+
+.contact-me span {
+  color: #66bfbf;
+}
+
+.contact-me button {
+  transition: 0.3s;
+}
+
+
+.project_button {
+  display: flex;
+}
+
+.project-completed {
+  line-height: 1.5rem;
+}
+
+.project-completed h1 {
+  color: #66bfbf;
+}
+
+.contact-me-btn button {
+  background: transparent;
+  margin: 2.5rem 0rem 0rem 4rem;
+  border: 2px solid #66bfbf;
+  border-radius: 20px;
+  padding: 15px;
+  color: white;
+}
+
+.contact-me-btn button:hover {
+  background: #66bfbf;
+  color: black;
+}
+
+/* footer */
+footer {
+  background-color: #66bfbf;
+  padding: 1.5rem;
+}
+
+footer a {
+  color: #11999e;
+}
